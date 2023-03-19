@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/fidexio/stepDefinitions",
         dryRun = false,
-        tags = "@login"
+        tags = "@logout"
 
 
 )

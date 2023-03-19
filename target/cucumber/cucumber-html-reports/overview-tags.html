@@ -48,32 +48,32 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@login",  "@smoke", ] ,
+        labels:  [ "@FIX10-355",  "@FIX10-357",  "@logout", ] ,
         datasets: [
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [ 100.00,  100.00, ] 
+                data:  [ 100.00,  100.00,  100.00, ] 
             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [ 0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [ 0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
-                data:  [ 0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00, ] 
             },
             {
                 label: "Undefined",
                 backgroundColor: "#F5B975",
-                data:  [ 0.00,  0.00, ] 
+                data:  [ 0.00,  0.00,  0.00, ] 
             }
         ]
     };
@@ -133,7 +133,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>18 Mar 2023, 17:51</td>
+      <td>19 Mar 2023, 14:03</td>
     </tr>
   </tbody>
 </table>
@@ -195,37 +195,54 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
-        <td class="tagname"><a href="report-tag_4082898728.html">@login</a></td>
+        <td class="tagname"><a href="report-tag_1103357273.html">@FIX10-355</a></td>
 
-        <td      class="passed"    >58</td>
+        <td      class="passed"    >3</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">58</td>
+        <td class="total">3</td>
 
-        <td  class="passed"    >20</td>
+        <td  class="passed"    >1</td>
         <td >0</td>
-        <td class="total">20</td>
+        <td class="total">1</td>
 
-        <td class="duration" data-value="3206000">0.003</td>
+        <td class="duration" data-value="1314367000">1.314</td>
         <td class="passed">Passed</td>
       </tr>
       <tr>
-        <td class="tagname"><a href="report-tag_4089311534.html">@smoke</a></td>
+        <td class="tagname"><a href="report-tag_1103357275.html">@FIX10-357</a></td>
 
-        <td      class="passed"    >58</td>
+        <td      class="passed"    >5</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">58</td>
+        <td class="total">5</td>
 
-        <td  class="passed"    >20</td>
+        <td  class="passed"    >1</td>
         <td >0</td>
-        <td class="total">20</td>
+        <td class="total">1</td>
 
-        <td class="duration" data-value="3206000">0.003</td>
+        <td class="duration" data-value="2837673000">2.837</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-tag_2015815113.html">@logout</a></td>
+
+        <td      class="passed"    >8</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">8</td>
+
+        <td  class="passed"    >2</td>
+        <td >0</td>
+        <td class="total">2</td>
+
+        <td class="duration" data-value="4152040000">4.152</td>
         <td class="passed">Passed</td>
       </tr>
   </tbody>
@@ -233,19 +250,19 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>116</td>
+      <td>16</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>116</td>
+      <td>16</td>
 
-      <td>40</td>
+      <td>4</td>
       <td>0</td>
-      <td>40</td>
+      <td>4</td>
 
-      <td class="duration">0.006</td>
-      <td>2</td>
+      <td class="duration">8.304</td>
+      <td>3</td>
     </tr>
     <tr>
       <td></td>
